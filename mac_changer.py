@@ -32,7 +32,6 @@ def get_current_mac(interface):
     else:
         print("[-] Could not read MAC address.")
 
-
 options = get_arguments()
 current_mac = get_current_mac(options.interface)
 print("Current MAC = " + str(current_mac))
